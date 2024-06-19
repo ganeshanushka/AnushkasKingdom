@@ -1,0 +1,223 @@
+:root {
+  --color1: #8cb3d9;
+  --color2: #538cc6;
+  --color3: #aa80ff;
+  --color4: #cc6699;
+  --color5: #d98cb3;
+}
+
+html, body {
+  background-color: #d60000;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  background-color: #d60000;
+  color: white;
+}
+
+.right-side {
+  margin-bottom: 30px;
+  font-size: 20px
+}
+
+.second-top-container {
+    background-color: #2d2d2d;
+    border: 7px solid white;
+    width: 98%;
+    height: 100px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: row;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: -50px;
+  }
+
+  a {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 120px;
+    font-size: 5em;
+    background-color: inherit;
+    padding-top: -20px;
+    color: white;
+    margin-bottom: 10px;
+  }
+
+.mini{
+    text-align: center;
+    margin-top: 120px;
+    font-size: 5em;
+    background-color: inherit;
+    padding-top: -20px;
+    color: white;
+    margin-bottom: 70px;
+  }
+
+  button {
+    background-color: #2d2d2d;
+    color: white;
+    margin-bottom: 40px;
+    width: 180px;
+    height: 60px;
+    font-size: 1.25em;
+    cursor: pointer;
+    font-family: 'New Super Mario Font U', sans-serif;
+    border: none;
+    margin-right: -40px;
+    }
+
+  .btn-aboutme {
+    border: 0.2rem solid white;
+    background-color: #2d2d2d;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 40px;
+    width: 180px;
+    height: 60px;
+    font-size: 1.25em;
+    border-radius: 7%;
+    cursor: pointer;
+    font-family: 'New Super Mario Font U', sans-serif;
+  }
+
+  .diagonal-split-background {
+    background: linear-gradient(
+      var(--color1),
+      var(--color2),
+      var(--color3),
+      var(--color4),
+      var(--color5));
+    position: relative;
+    top: 200px;
+    left: 0px;
+    right: 0px;
+    min-height: 1900px;
+    color: white;
+    -ms-transform: skewy(-12deg);
+    -webkit-transform: skewy(-12deg);
+    transform: skewy(-12deg);
+    box-shadow: 0px -10px 0px -3px white inset, 
+    0px 10px 0px -3px white inset; 
+  }
+
+  .grid-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -250px;
+    transform: skewy(12deg);
+    flex-wrap: wrap;
+  }
+
+  .grid-container .item-link { 
+    margin: 10px; 
+}
+
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+  }
+
+  .item {
+    box-sizing: border-box;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d2d2d;
+    background: repeating-linear-gradient(
+    -45deg,
+    #2d2d2d 0px,
+    #2d2d2d 5px,
+    #383535 5px,
+    #383535 10px
+  );
+    border-radius: 20px;
+    padding: 30px 20px;
+    font-size: 250px;
+    width: 100%;
+  }
+
+  .content {
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height: 150px;
+  }
+
+ p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+ }
+
+  .title {
+    margin-top: 0px;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .description {
+    margin-top: -10px;
+    font-style: italic;
+  }
+
+  .date {
+    margin-top: 40px;
+    font-weight: bold;
+  }
+
+  .item-link {
+    color: inherit;
+    display: block;
+    border: 3px solid transparent;
+    border-radius: 20px;
+    transition: border-color 0.3s;
+    color: white;
+    box-sizing: border-box;
+    width: auto;
+  }
+
+  .item-link:hover {
+    border-color: white;
+    border-radius: 20px;
+  }
+
+  .dotted-line {
+    border-top: 4px dotted white;
+    width: 100%;
+}
+
+  .main-projects {
+    margin-top: 150px;
+  }
+
+  .grid-container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-bottom: 100px;
+  }

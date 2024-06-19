@@ -1,0 +1,71 @@
+.title1 {
+    background-color: orange;
+    height: 50px;
+  }
+  
+  h1 {
+    color: blue;
+    text-align: center;
+  }
+  
+  .title2 {
+    background-color: white;
+    height: 50px;
+  }
+  
+  h2 {
+    font-size: 1.1em;
+    text-align: center;
+    padding-top: 12px;
+    color: white;
+  }
+  
+  .title3 {
+    background-color: green;
+    height: 50px;
+  }
+  
+  #img-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    flex-direction: column;
+  }
+  
+  #image {
+    width: 700px;
+    display: block;
+    max-width: 100%;
+  }
+  
+  #img-caption {
+    padding-top: 5px;
+  }
+  
+  #tribute-info {
+    width: 800px;
+    background-color: #faf0e6;
+  }
+  
+  .tribute-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color:#faf0e6;
+    margin-top: 40px;
+    padding: 20px;
+  }
+  
+  li {
+    padding-bottom: 20px;
+    font-size: 1.25em;
+  }
+  
+  p {
+    font-size: 1.5em;
+  }
+  
+  

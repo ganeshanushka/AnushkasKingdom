@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="survey_form.css">
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">College Survey Form</h1>
+    <p id="description">Thank you for taking the time to fill out this survey!</p>
+    <div class="form">
+      <form id="survey-form">
+        <fieldset>
+          <label id="name-label">
+        Enter your name</label> <label for="name"><input id="name" type="text" placeholder="Enter your name" required></label>
+        <label id="email-label"> Enter your email</label><label for="email"><input id="email" type="email" placeholder="Enter your email" required></label>
+        <label id="number-label">Enter your age</label> <label for="number"><input id="number" type="number" min="12" max="120" placeholder="Enter your age"></label>
+        </fieldset>
+        
+        <fieldset>
+          <label for="dropdown"> Which best describes your status as a college student?</label>
+          <select id="dropdown">
+            <option>(Select any one)</option>
+            <option>Full-time student</option>
+            <option>Part-time student</option>
+            </select>
+        </fieldset>
+        
+        <fieldset>
+          <label> Would you recommend enrolling in college?</label>
+          <label for="yes"><input type="radio" name="college" class="inline" value="yes" checked>Yes</label>
+          <label for="no"><input type="radio" name="college" class="inline" value="no">No</label>
+        </fieldset>
+        
+        <fieldset>
+          <label for="major"> What is your major(s)? (Select all that apply)</label>
+          <label for="comp-sci"><input value="1" type="checkbox" class="inline">Computer Science</label>
+          <label for="maths"><input value="2" type="checkbox" class="inline">Mathematics</label>
+          <label for="english"><input value="3" type="checkbox" class="inline">English</label>
+          <label for="physics"><input value="4" type="checkbox" class="inline">Physics</label>
+          <label="chemistry"><input value="5" type="checkbox" class="inline">Chemistry</label>
+          <label for="biology"><input value="6" type="checkbox" class="inline">Biology</label>
+          </fieldset>
+
+          <fieldset>
+            <label for="comments">Any additional comments/suggestions? </label>
+            <textarea id="comments" name="comments" rows="3" cols="20" placeholder="Enter your comment/suggestion"></textarea>
+          </label>
+          </fieldset>
+        <input id="submit" type="submit" value="Submit">
+      </form>
+    </div>
+  </body>
+</html>
